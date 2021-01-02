@@ -17,6 +17,7 @@ const App = () => {
       </div>
       <div className="container">
         <Searchbar setText={setText} text={text} response={response} setResponse={setResponse} />
+        <br></br>
         <ListViewer response={response} />
       </div>
     </div>

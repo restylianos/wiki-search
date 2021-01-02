@@ -2,10 +2,6 @@ import '../../node_modules/bulma/css/bulma.css';
 import React from 'react';
 
 const ListViewer = ({ response, text }) => {
-  if (text.length === 0) {
-    return <div></div>;
-  }
-
   const renderedResults = response.map((item) => {
     return (
       <div className="column is-one-quarter" key={item.pageid}>
